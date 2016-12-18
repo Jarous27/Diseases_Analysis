@@ -1,0 +1,16 @@
+﻿<Window x:Class="Desease_Analysis.UI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Desease_Analysis.UI"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Button x:Name="button" Content="Проанализировать симптомы" HorizontalAlignment="Left" Margin="159,166,0,0" VerticalAlignment="Top" Width="202" Click="button_Click" Height="39" FontSize="14"/>
+        <Button x:Name="button1" Content="Внести заболевание в базу" HorizontalAlignment="Left" Margin="159,88,0,0" VerticalAlignment="Top" Width="202" Height="39" FontSize="14" Click="button1_Click"/>
+        <Button x:Name="button3" Content="Выход" HorizontalAlignment="Left" Margin="159,243,0,0" VerticalAlignment="Top" Width="202" Height="39" FontSize="14" Click="button3_Click"/>
+        <Label x:Name="label" Content="Анализ заболеваний" HorizontalAlignment="Left" Height="55" Margin="106,10,0,0" VerticalAlignment="Top" Width="305" FontSize="30"/>
+
+    </Grid>
+</Window>
